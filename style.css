@@ -32,10 +32,9 @@ body {
   line-height: 1.5;
  margin-left: 40%;
  margin-right:42%;
-  
- 
-  
-  
+ border: 2px solid #CD853F;
+ border-radius:10px;
+ background-image: url(obrazky/Pozadi3.jpg); 
 }
 
 .foto-omne { 
@@ -46,6 +45,7 @@ body {
  margin-bottom:0;
  padding-bottom:0;
  padding-top:0;
+ border-radius:10px;
 
  
  
@@ -72,7 +72,7 @@ body {
   color:white;
   background-color: #CD853F;
   margin-top:0;
-  margin-bottom:2px;
+  margin-bottom:0;
   padding-top: 5px;
   padding-bottom:7px;
   
@@ -88,7 +88,22 @@ body {
 margin:0;
 padding:0;
 text-align: center;
-
+background-color: #CD853F;
 
 }
+
+.odkazy a {
+  display:inline-block;
+  color:white;
+  text-decoration:none;
+  padding: 20px 30px;
+
+}
+
+.odkazy a:hover,
+.odkazy a:focus,
+.odkazy a:active {
+ background-color:#F5DEB3
+}
+
 
