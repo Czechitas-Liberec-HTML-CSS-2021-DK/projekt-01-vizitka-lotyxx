@@ -10,31 +10,85 @@ h1,h2 {
 
 
   font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+ 
+  
 }
 
-
-.foto-omne {
-
-
-  width: 200px;
-  border-radius:50%;
-}
-
-.paticka {
+.omne p {
+background-color:#F5DEB3;
+margin-top:0;
+margin-bottom:0;
+padding-left: 15px;
+padding-right: 15px;
 
 
-  font-family: 'Open Sans', sans-serif;
+
 }
 
 body {
-  line-height: 1.5;
+  position:absolute;
   margin: 0 0 0 0;
-  margin-left:200px;
+  line-height: 1.5;
+ margin-left: 40%;
+ margin-right:42%;
+  
+ 
+  
+  
 }
 
-section p {
+.foto-omne { 
 
-padding-right: 1000px;
-text-align: left;
+ width:269px;
+ display:block;
+ margin-top:2px;
+ margin-bottom:0;
+ padding-bottom:0;
+ padding-top:0;
+
+ 
+ 
 
 }
+
+.omne h1 {
+
+  color:white;
+  background-color: #CD853F;
+  margin-top:0;
+  margin-bottom: 0;
+  padding-top: 5px;
+  padding-bottom:7px;
+  
+  
+  
+  
+
+
+}
+
+.kontakt h2 {
+  color:white;
+  background-color: #CD853F;
+  margin-top:0;
+  margin-bottom:2px;
+  padding-top: 5px;
+  padding-bottom:7px;
+  
+  
+}
+
+.odkazy li{
+  display:inline-block; 
+}
+
+
+.odkazy {
+margin:0;
+padding:0;
+text-align: center;
+
+
+}
+
